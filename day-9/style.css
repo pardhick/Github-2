@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:#FFFFFE ;
+}
+
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color:wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    height: auto;
+    width: 33%;
+    background-color: #DDB8B5;
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+}
+.up{
+    width: 100%;
+    height: 90%;
+    padding: 15px;
+}
+.nav{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+.nav p{
+    margin-right: 15px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+}
+.body h3{
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 35px;
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    height: 90%;
+    width: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color:  #FEB759;
+    color: white;
+}
+.down{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    background-color: rgb(245, 254, 245);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+     padding: 10px 0;
+}
+.box:hover .down{
+    opacity: 1;
+}
+.color{
+    width: 85%;
+    height: 18px;
+    display: flex;
+}
+.clr{
+    height: 100%;
+   
+
+}
+.clr1{
+    width: 60%;
+    background-color: #DDB8B5;
+}
+.clr2{
+    width: 20%;
+    background-color:#FFFFFE;
+}
+.clr3{
+    width: 20%;
+    background-color: white;
+}
+.clr4{
+    width: 10%;
+    background-color:  #FEB759 ;
+}
+.copy{
+    width: 25px;
+    height: 25px;
+    background-color:   #FEB759;
+    border-radius: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copy i{
+    color: white;
+    font-size: 14px;
+}
